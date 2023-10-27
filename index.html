@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>TestTask</title>
+</head>
+<body>
+    <main class="main_container">
+
+        <div class="container">
+    
+            <div class="main">
+                <nav class="navbar">
+                    <img class="logo" src="./assets/logo.svg" alt="logo">
+                        <ul class="navbar_list" id="list">
+                            <li><a  href="/" class="navbar_link">Преимущества</a></li>
+                            <li><a  href="/" class="navbar_link">Услуги</a></li>
+                            <li><a  href="/" class="navbar_link">Виджет</a></li>
+                            <li><a  href="/" class="navbar_link">Кому</a></li>
+                            <li><a  href="/" class="navbar_link">Тарифы</a></li>
+                            <li><a  href="/" class="navbar_link">Блог</a></li>
+                        </ul>
+                        <div class="navbar_burger" id="burger">
+                            <span></span>
+                        </div>
+                        <div class="main_picture">
+                            <img  class="main_picture_man" src="./assets/main_man.svg" alt="man">
+                            <img  class="main_border" src="./assets/yellowBorder.svg" alt="">
+                        </div>
+                </nav>
+                <header class="header">
+                    <div class="header_info">
+                        <h1 class="header_title">Техническая поддержка сайтов, CRM систем и мобильных приложений</h1>
+                        <p class="header_text">Профессиональное техническое сопровождение и <br> обслуживание сайтов: полный комплекс услуг от <br> опытных экспертов</p>
+                        <button class="header_btn">Подключиться</button>
+                        <div class="header_custom_btn">
+                            <img src="./assets/arrow.svg" alt="arrow">
+                        </div>
+                    </div>
+                    <div class="header_pictures">
+                        <img class="header_image_1" src="./assets/analytics.png" alt="analytics">
+                        <img class="header_image_2" src="./assets/requests.png" alt="queries">
+                    </div>
+                </header>
+            </div>
+    
+            <div class="contacts">
+                <header class="contacts_header">
+                    <button class="conacts_language">En</button>
+                    <div class="contacts_phone_section">
+                        <p class="contacts_number">+7 (495) 123-45-67</p>
+                        <button class="contacts_btn" id="modalOpen">Контакты</button>
+                    </div>
+                    <img  class="contacts_img" src="./assets/contacts.png" alt="contacts">
+                </header>
+                <div class="contacts_picture">
+                    <img  class="contacts_picture_man" src="./assets/contacts_man.svg" alt="man">
+                    <img  class="contacts_border" src="./assets/purpleBorder.svg" alt="">
+                </div>
+            </div>
+
+            <div class="modal close" id="popup">
+                <h2 class="modal_title">Контактная информация</h2>
+
+                <div class="modal_location">
+                    <div class="location">
+                        <img src="./assets/location.png" alt="location">
+                        <p class="location_text">Наш офис</p>
+                    </div>
+                    <p class="moda_location_address">Санкт-Петербург, ул. Такая-то, д. 1</p>
+                    <a class="modal_link" href="/">Показать на карте</a>
+                </div>
+
+                <div class="modal_contacts">
+                    <div class="modal_contacts_info">
+                        <div class="modal_contacts_text">
+                            <p class="text_label">Звоните:</p> <p class="text_info">+7 (495) 123-45-67</p>
+                        </div>
+                        <div class="modal_contacts_text">
+                            <p class="text_label">Пишите:</p> <p class="text_info">info@test.ru</p>
+                        </div>
+                    </div>
+                    <button class="modal_contacts_btn">Заказать звонок</button>
+                </div>
+
+                <div class="modal_time">
+                    <div class="modal_mode">
+                        <img src="./assets/clock.png" alt="clock">
+                        <p class="modal_mode_text">Режим работы:</p>
+                    </div>
+                    <p class="modal_time_text">
+                        Пн-Пт — с 10:00 до 18:00<br/>
+                        Cб-Вс — выходной
+                    </p>
+                </div>
+
+                <div class="modal_socials">
+                    <p class="modal_socials_text">Мы в соцсетях</p>
+                    <div class="modal_socials_apps">
+                        <div class="modal_app telegram"><img src="./assets/telegram.png" alt="telegram"></div>
+                        <div class="modal_app vk"><img src="./assets/vk.svg" alt="vk"></div>
+                        <div class="dzen"><img src="./assets/dzen.png" alt="dzen"></div>
+                    </div>
+                </div>
+            </div>
+            <img class="blue" src="./assets/elipseBlue.svg" alt="elipse">
+            <img class="orange" src="./assets/elipseOrange.svg" alt="elipse">
+            <img class="yellow" src="./assets/elipseYellow.svg" alt="elipse">
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
